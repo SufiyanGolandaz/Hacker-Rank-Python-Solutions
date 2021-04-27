@@ -1,0 +1,5 @@
+x,k=input().split()
+x=int(x)
+p=input()
+f= lambda x : eval(p)
+print(f(x)==int(k))   
